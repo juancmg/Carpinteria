@@ -1,0 +1,9 @@
+User-agent: *
+Allow: http://www.carpinteriamasmadera.com/#
+Allow: http://www.carpinteriamasmadera.com/#about
+Allow: http://www.carpinteriamasmadera.com/#contacto
+Allow: http://www.carpinteriamasmadera.com/#contact
+Allow: http://www.carpinteriamasmadera.com/#home
+Allow: http://www.carpinteriamasmadera.com/#works
+Allow: /maps/api/js/AuthenticationService.Authenticate
+Allow: /maps/api/js/QuotaService.RecordEvent

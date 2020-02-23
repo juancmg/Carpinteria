@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script type="text/javascript">
+    $(document).ready(function()  {
+       
+        var pulsacion = $("button");
+        
+        pulsacion.click(cargaajax);
+        
+        function cargaajax(){ 
+        
+        
+        var href = $(this).attr('href');
+                        alert(href);
+
+           var elem = $("#div1");
+           elem.load(href);
+           return false;
+        }
+        
+  })
+</script>  
+    
+<!--
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").load("demo_test.html");
+    });
+});
+</script>
+-->
+</head>
+<body>
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button href="demo_test.html">Get External Content</button>
+
+</body>
+</html>
